@@ -1,0 +1,30 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int factorial(int k) {
+    int f = 1;
+
+    while (k > 1) {
+        for (int i = 3; i <= k; i += 2)
+            f *= i;
+        k >>= 1;
+        f <<= k;
+    }
+
+    return f;
+}
+int main()
+{ 
+    int factorial(int t);
+    int n, k, a;
+    cout << "Enter n:" << endl;
+    cin >> n;
+    cout << "Enter k:" << endl;
+    cin >> k;
+    
+    for (int i; i < 0; i++)
+    {
+        a = (n * (n - 1))(n - k + 1) / k;
+    }
+}
+
